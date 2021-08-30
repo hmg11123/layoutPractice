@@ -11,6 +11,11 @@
   align-items: center;
 }
 
+.main_wholWrapper {
+  height: 100vh;
+  background-size: cover;
+}
+
 .header_WholWrapper {
   width: 100%;
   height: 120px;
@@ -119,7 +124,7 @@
 }
 
 .graph_title_wrapper {
-  width: 742px;
+  width: 675px;
   display: flex;
   position: relative;
 }
@@ -128,7 +133,7 @@
   top: 0;
   right: 0;
   content: "";
-  width: 388px;
+  width: 338px;
   height: 53px;
   background-color: #ffcb08;
 }
@@ -158,23 +163,20 @@
 }
 
 .graph_img {
-  width: 637px;
-}
-
-.graph_img img {
-  width: 100%;
-  height: auto;
+  width: 62%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .graph_table {
-  width: 385px;
+  width: 38%;
   display: flex;
   flex-direction: column;
   margin: 0 0 0 70px;
 }
 
 .graph_table ul {
-  width: 100%;
+  width: 80%;
   height: 50px;
   display: flex;
   align-items: center;
@@ -362,6 +364,7 @@
 .life_story_img_wrapper {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin: 0px 0px 40px 0;
 }
@@ -373,7 +376,7 @@
 }
 
 .life_story_benner {
-  width: 440px;
+  width: calc(100% / 3);
   height: 196px;
 }
 
@@ -391,8 +394,15 @@
   border: 1px solid #fff;
   width: 440px;
   height: 60px;
+
   font-size: 18px;
+  cursor: pointer;
 }
+
+/** ========================== mart */
+/** ========================== mart */
+/** ========================== mart */
+/** ========================== mart */
 
 .mart_wrapper {
   width: 100%;
@@ -434,37 +444,114 @@
   color: #fff;
 }
 
-.mart_banner_left .mart_banner_content {
-  width: 384px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.mart_banner_subTitle {
-  font-size: 48px;
-  line-height: 60px;
-  position: relative;
-  margin: 0 0 22px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.mart_banner_subTitle p {
-  z-index: 2;
-}
-
-.mart_banner_subTitle img {
-  top: 0;
-  left: 0;
+.mart_banner {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mart_banner_box .mart_banner_title {
+  position: relative;
+}
+
+.mart_banner_box .mart_banner_title p {
+  font-size: 24px;
+  line-height: 60px;
+  z-index: 1;
+}
+
+.mart_banner_box .mart_banner_title img {
+  /* width: 120px;
+  height: 23px;
+  top: 0;
+  right: 0; */
   position: absolute;
   z-index: -1;
-  margin: 21px 0 0 0;
 }
+
+.mart_banner_box {
+  width: calc(100% / 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mart_banner_content {
+  width: 100%;
+}
+
+.mart_banner_content p {
+  text-align: center;
+  color: #222222;
+  line-height: 27px;
+}
+
+.mart_middle_banner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mart_title_line_1 {
+  width: 120px;
+  height: 23.5px;
+  top: 0;
+  right: 0;
+  margin: 26px -7px 0 0;
+}
+.mart_title_line_2 {
+  width: 141px;
+  height: 23.5px;
+  top: 0;
+  left: 0;
+  margin: 26px 0 0 -10px;
+}
+.mart_title_line_3 {
+  width: 114px;
+  height: 23.5px;
+  top: 0;
+  margin: 26px 0 0 -15px;
+}
+.mart_title_line_4 {
+  width: 166px;
+  height: 23.5px;
+  top: 0;
+  right: 0;
+  margin: 26px -25px 0 0;
+}
+
+.mart_title_line_5 {
+  width: 150px;
+  height: 23.5px;
+  top: 0;
+  left: 0;
+  margin: 26px 0 0 -10px;
+}
+.mart_title_line_6 {
+  width: 150px;
+  height: 23.5px;
+  top: 0;
+  right: 0;
+  margin: 26px -10px 0 0;
+}
+.mart_title_line_7 {
+  width: 135px;
+  height: 23.5px;
+  top: 0;
+  right: 0;
+  margin: 26px -20px 0 0;
+}
+.mart_title_line_8 {
+  width: 124px;
+  height: 23.5px;
+  top: 0;
+  left: 0;
+  margin: 26px 0 0 -5px;
+}
+
+/** question */
+
 .question_wholWrapper {
   width: 100%;
   background-image: url("https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/question%2F%E1%84%86%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%20%E1%84%80%E1%85%B3%E1%84%85%E1%85%AE%E1%86%B8%2032.png?alt=media&token=c1648c19-76f9-480d-8474-6471451c4d6b");
@@ -506,5 +593,65 @@
   outline: none;
   background-color: #222222;
   color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+/** footer */
+
+.footer_wholWrapper {
+  background-color: #222222;
+  color: #fff;
+  font-size: 14px;
+  padding: 46px 0 42.5px 0;
+}
+
+.footer_rswrapper {
+  width: 1360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_rswrapper p {
+  margin: 0 0 10px 0;
+}
+
+.footer_wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.footer_wrapper_1,
+.footer_wrapper_2 {
+  margin: 0 61px 0 0;
+}
+
+.footer_logos_img {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 25px 0 0 0;
+}
+
+.footer_logos_img img:nth-child(1) {
+  width: 80px;
+  height: 80px;
+}
+
+.footer_logos_img img:nth-child(2) {
+  width: 83px;
+  height: 53px;
+}
+
+.footer_wrapper_1 p:nth-child(2) span:nth-child(2),
+.footer_wrapper_1 p:nth-child(2) span:nth-child(3),
+.footer_wrapper_1 p:nth-child(3) span:nth-child(2) {
+  margin: 0 0 0 30px;
+}
+
+.footer_wrapper_3 p:nth-child(2),
+.footer_wrapper_3 p:nth-child(4) {
   font-size: 18px;
 }
