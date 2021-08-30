@@ -470,6 +470,7 @@
   background-image: url("https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/question%2F%E1%84%86%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%20%E1%84%80%E1%85%B3%E1%84%85%E1%85%AE%E1%86%B8%2032.png?alt=media&token=c1648c19-76f9-480d-8474-6471451c4d6b");
   padding: 104px 0 110px 0;
   color: #fff;
+  background-size: cover;
 }
 
 .question_title {
@@ -505,4 +506,5 @@
   outline: none;
   background-color: #222222;
   color: #fff;
+  font-size: 18px;
 }
