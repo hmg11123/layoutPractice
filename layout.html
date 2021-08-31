@@ -26,15 +26,25 @@
         </div>
       </div>
     </div>
+    <div class="mobile_WholWrapper mobile">
+      <div class="mobile_rswrapper">
+        <ul class="mobile_menu_box">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+
+        <img
+          class="logo"
+          src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fheader%2Flogo.png?alt=media&token=563fd73e-db46-4539-aad4-387ed91c06c2"
+          alt="logo"
+        />
+      </div>
+    </div>
   </head>
   <!-- body -->
   <body>
-    <div class="main_wholWrapper wholWrapper">
-      <img
-        src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fmain%2Fmain.png?alt=media&token=9a7df99d-11f6-4ecf-9c91-667c11bf8d25"
-        alt="main"
-      />
-    </div>
+    <div class="main_wholWrapper wholWrapper"></div>
     <!-- 매장현황 -->
     <div class="store_wholwrapper">
       <div class="store_wrapper">
@@ -88,9 +98,15 @@
           </div>
         </div>
         <div class="graph_content">
-          <div class="graph_img">
+          <div class="graph_img pc">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fgraph%2F%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%84%91%E1%85%B3.png?alt=media&token=bfa7edbb-9e42-46e1-9e6a-a9ee533a39b6"
+              alt="그래프"
+            />
+          </div>
+          <div class="graph_img_mobile mobile">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fmobile%2F%E1%84%86%E1%85%A9%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%84%91%E1%85%B3.png?alt=media&token=9f56e854-5e0d-4aa5-922e-d5728e44a71b"
               alt="그래프"
             />
           </div>
@@ -146,9 +162,13 @@
     </div>
     <!-- 브랜드 -->
     <div class="brand_wholWrapper">
-      <div class="brand_title">
-        <p>펫마트 입점 브랜드</p>
-        <p>펫마트는 약 700여개의 유명, 신규브랜드와 5000여개의 품목을 취급하고 있습니다.</p>
+      <div class="rsWrapper">
+        <div class="brand_title">
+          <p>펫마트 입점 브랜드</p>
+          <p>펫마트는 약 700여개의 유명, 신규브랜드와 5000여개의 품목을 취급하고 있습니다.</p>
+          <p class="mobile">펫마트는 약 700여개의 유명, 신규브랜드와</p>
+          <p class="mobile">5000여개의 품목을 취급하고 있습니다.</p>
+        </div>
       </div>
       <div class="brand_logo_wrapper">
         <div class="brand_logo_list">
@@ -199,7 +219,19 @@
             </p>
             <p>되는 이유</p>
           </div>
-          <div>
+          <div class="reason_title_mobile mobile">
+            <p class="reason_span_text">
+              <span>지금!</span>
+              <span class="reason_color_text">펫마트</span>
+              <span>를</span>
+            </p>
+            <p class="reason_span_text">
+              <span class="reason_color_text">시작</span>
+              <span>해야</span>
+              <span>되는 이유</span>
+            </p>
+          </div>
+          <div class="reason_top_img pc">
             <div class="reason_top_img">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Freason%2Ftop.png?alt=media&token=7ef076d9-1b63-4401-be3c-027aff7ea53e"
@@ -207,15 +239,33 @@
               />
             </div>
             <div class="reason_bottom_img">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Freason%2Fbottom_left.png?alt=media&token=572d3945-0b33-41f2-98e2-464f7c2f983c"
-                alt="reason_img"
-              />
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Freason%2Fbottom_right.png?alt=media&token=32942761-89e1-49d0-990f-099bfc3a1688"
-                alt="reason_img"
-              />
+              <div>
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Freason%2Fbottom_left.png?alt=media&token=572d3945-0b33-41f2-98e2-464f7c2f983c"
+                  alt="reason_img"
+                />
+              </div>
+              <div>
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Freason%2Fbottom_right.png?alt=media&token=32942761-89e1-49d0-990f-099bfc3a1688"
+                  alt="reason_img"
+                />
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="reason_top_img_mobile mobile">
+        <div class="reason_rs_img_mobile">
+          <div class="reason_img_box">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fmobile%2F%E1%84%86%E1%85%A9%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB.png?alt=media&token=301be095-796f-4cbd-9b91-2b4b1fa45c59"
+            />
+          </div>
+          <div class="reason_img_box_slice">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fmobile%2F%E1%84%86%E1%85%A9%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%202.png?alt=media&token=f609f707-2512-4403-b8eb-bcb6531ee7f9"
+            />
           </div>
         </div>
       </div>
@@ -230,23 +280,38 @@
           <div class="rsWrapper">
             <div class="life__wrapper_2">
               <div class="life_title">
-                <div class="life_title_top">
+                <div class="life_title_top pc">
                   <p>펫마트와</p>
                   <p class="reason_color_text">함께 인생</p>
                   <p>제2막 시작!</p>
                 </div>
+                <div class="life_title_top_mobile mobile">
+                  <span>펫마트와</span>
+                  <span class="reason_color_text">함께 인생 제2막</span>
+                  <span> 시작!</span>
+                </div>
+
                 <div class="life_title_bottom">
                   <p class="life_text">
-                    <span>가맹점</span>
-                    <span>성공스토리</span>
+                    <span>가맹점 성공스토리 68호 군산점</span>
                   </p>
-                  <p class="reason_color_text">68호 군산점</p>
                 </div>
               </div>
-              <div class="life_video">
+              <div class="life_video pc">
                 <iframe
                   width="785"
                   height="420"
+                  src="https://www.youtube.com/embed/FPzdQh8ahd0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="life_video mobile">
+                <iframe
+                  width="330"
+                  height="177"
                   src="https://www.youtube.com/embed/FPzdQh8ahd0"
                   title="YouTube video player"
                   frameborder="0"
@@ -325,7 +390,7 @@
             <div class="mart_banner">
               <div class="mart_banner_box">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_01.png?alt=media&token=ab2b4dfa-f41a-4896-970e-965f4757297c"
+                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_01_01.png?alt=media&token=799cf993-f0a7-48f0-83bd-f0b5f52df0f9"
                   alt="pet_mart_img"
                 />
                 <div class="mart_banner_title">
@@ -339,12 +404,12 @@
                 <div class="mart_banner_content">
                   <p>체계적이고 안정적인 물류 시스템으로 일주일에</p>
                   <p>한번씩 본사 직접 배송으로 불필요한 재고를 보유</p>
-                  <p>할 필요없음</p>
+                  <p>할 필요없음(업계최초)</p>
                 </div>
               </div>
               <div class="mart_banner_box">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_02.png?alt=media&token=675fb79b-6a07-4a76-a502-8cd063c3e9c9"
+                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_02_02.png?alt=media&token=37f3afa1-ffa2-4449-9380-f7425f439532"
                   alt="pet_mart_img"
                 />
                 <div class="mart_banner_title">
@@ -361,7 +426,7 @@
               </div>
               <div class="mart_banner_box">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_03.png?alt=media&token=73fef36a-ca96-47ea-9a5c-f6011b9e24b7"
+                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_03_03.png?alt=media&token=a386cf22-da87-48bf-a1fc-2ff057686a2a"
                   alt="pet_mart_img"
                 />
                 <div class="mart_banner_title">
@@ -379,7 +444,7 @@
               </div>
               <div class="mart_banner_box">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_04.png?alt=media&token=57cafe34-9f8b-4ed0-b7c5-d77e7f3f777b"
+                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_04_04.png?alt=media&token=039dbc67-ba8b-471c-a675-4b1d87d853e4"
                   alt="pet_mart_img"
                 />
                 <div class="mart_banner_title">
@@ -407,10 +472,10 @@
                 src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2F%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%80%E1%85%A8%E1%84%8E%E1%85%AC%E1%84%83%E1%85%A1.png?alt=media&token=96359603-8358-44b8-a323-63a1671acfb5"
               />
             </div>
-            <div class="mart_banner">
+            <div class="mart_banner mart_banner_pc">
               <div class="mart_banner_box">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_05.png?alt=media&token=564baf82-11ac-4ed9-b37f-1096f73f9213"
+                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_05_05.png?alt=media&token=8434ce2e-30dd-426c-b5a5-45de60afebea"
                   alt="pet_mart_img"
                 />
                 <div class="mart_banner_title">
@@ -427,7 +492,7 @@
               </div>
               <div class="mart_banner_box">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_06.png?alt=media&token=9a5acf4b-4734-4354-8165-7b00d1262dd7"
+                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_06_06.png?alt=media&token=bf68e8c6-070b-4e64-9936-bb1d5287b361"
                   alt="pet_mart_img"
                 />
                 <div class="mart_banner_title">
@@ -445,7 +510,7 @@
               </div>
               <div class="mart_banner_box">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_07.png?alt=media&token=af71911f-9f56-43f2-9182-2a5883be8be9"
+                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_07_07.png?alt=media&token=8053b281-416d-4000-975f-d31699e82109"
                   alt="pet_mart_img"
                 />
                 <div class="mart_banner_title">
@@ -463,7 +528,7 @@
               </div>
               <div class="mart_banner_box">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_08.png?alt=media&token=b553b68e-7677-4680-b283-59fc4f07610f"
+                  src="https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fwhy%2Fimg_08_08.png?alt=media&token=853e951d-22f6-4811-ba1b-21256be87825"
                   alt="pet_mart_img"
                 />
                 <div class="mart_banner_title">
@@ -627,14 +692,32 @@
         </div>
       </div>
       <div class="question_wholWrapper wholWrapper">
-        <div class="question_title">
-          <p>창업문의</p>
-          <p>펫마트의 전문 창업상담사 항시대기 1:1문의로 편안하고 빠른 안내를 받아보세요</p>
-          <p>연락처 : 1588-1684</p>
-          <p>E-mail : ebajslee@sunjinpet.co.kr</p>
-        </div>
-        <div class="question_button">
-          <button>신청하기</button>
+        <div class="question_rswrapper">
+          <div class="question_title">
+            <div class="question_title_data">
+              <p>창업문의</p>
+              <p>펫마트의 전문 창업상담사 항시대기 1:1문의로 편안하고 빠른 안내를 받아보세요</p>
+            </div>
+            <div class="question_data pc">
+              <p>연락처 : 1588-1684</p>
+              <p>E-mail : ebajslee@sunjinpet.co.kr</p>
+            </div>
+            <div class="question_data mobile">
+              <div class="question_data_box">
+                <p>
+                  <span>연락처</span>
+                  <span>1588-1684</span>
+                </p>
+                <p>
+                  <span>E-mail</span>
+                  <span>ebajslee@sunjinpet.co.kr</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="question_button">
+            <button>신청하기</button>
+          </div>
         </div>
       </div>
     </div>
