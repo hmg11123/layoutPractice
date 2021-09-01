@@ -572,8 +572,9 @@
 
 .question_wholWrapper {
   width: 100%;
+  height: auto;
   background-image: url("https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/question%2F%E1%84%86%E1%85%A1%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%20%E1%84%80%E1%85%B3%E1%84%85%E1%85%AE%E1%86%B8%2032.png?alt=media&token=c1648c19-76f9-480d-8474-6471451c4d6b");
-  padding: 104px 0 110px 0;
+  padding: 110px 0;
   color: #fff;
   background-size: cover;
 }
@@ -611,7 +612,6 @@
 }
 
 .question_button button {
-  margin: 61.5px 0 0 0;
   width: 440px;
   height: 60px;
   outline: none;
@@ -888,6 +888,7 @@
 .footer_wrapper {
   width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 
 .footer_wrapper_1,
@@ -911,6 +912,7 @@
 .footer_logos_img img:nth-child(2) {
   width: 83px;
   height: 53px;
+  margin: 0 0 0 47px;
 }
 
 .footer_wrapper_1 p:nth-child(2) span:nth-child(2),
@@ -919,9 +921,16 @@
   margin: 0 0 0 30px;
 }
 
-.footer_wrapper_3 p:nth-child(2),
-.footer_wrapper_3 p:nth-child(4) {
-  font-size: 18px;
+.footer_wrapper_3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_wrapper_3 p:nth-child(2) {
+  font-size: 30px;
+  line-height: 36px;
 }
 
 .question_rswrapper {
