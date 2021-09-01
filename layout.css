@@ -18,10 +18,9 @@
 
 .main_wholWrapper {
   height: 100vh;
-  /* background-size: 100% 100%; */
-  background-repeat: none;
-  background-position-x: center;
-  background-position-y: -30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 
   background-image: url("https://firebasestorage.googleapis.com/v0/b/hmg-fileserver.appspot.com/o/layoutPractice%2Fmain%2Fmain.png?alt=media&token=9a7df99d-11f6-4ecf-9c91-667c11bf8d25");
   overflow: hidden;
@@ -73,6 +72,7 @@
   font-size: 18px;
   line-height: 1.32;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .header_question:hover {
@@ -100,22 +100,22 @@
 
 .store_wholwrapper .store_img {
   width: 325px;
-  height: auto;
+  height: 325px;
   margin: 0 20px 0 0;
   overflow: hidden;
 }
 
 .store_wholwrapper .store_last_img {
   max-width: 260px;
-  height: auto;
+  height: 325px;
   overflow: hidden;
 }
 .store_wholwrapper .store_last_img img {
   max-width: initial;
 }
 
-.store_wholwrapper .store_img img:hover,
-.store_wholwrapper .store_last_img img:hover {
+.store_wholwrapper .store_img:hover img,
+.store_wholwrapper .store_last_img:hover img {
   cursor: pointer;
 
   transform: scale(1.1);
@@ -129,7 +129,6 @@
   -o-transition: transform 0.5s;
   -moz-transition: transform 0.5s;
   -webkit-transition: transform 0.5s;
-  opacity: 0.7;
 }
 
 .store_wholwrapper .store_wrapper .store_tite {
@@ -292,8 +291,6 @@
 
 .brand_logo_list img:hover {
   cursor: pointer;
-
-  opacity: 0.7;
 }
 
 .reason_wrapper {
@@ -423,14 +420,19 @@
 }
 
 .life_story_benner {
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 10px);
   height: 196px;
   overflow: hidden;
   z-index: 1;
   cursor: pointer;
 }
 
-.life_story_benner img:hover {
+.life_story_benner img {
+  width: 100%;
+  height: 100%;
+}
+
+.life_story_benner:hover img {
   cursor: pointer;
 
   transform: scale(1.1);
@@ -444,7 +446,6 @@
   -o-transition: transform 0.5s;
   -moz-transition: transform 0.5s;
   -webkit-transition: transform 0.5s;
-  opacity: 0.7;
 }
 
 .life_button {
@@ -561,7 +562,6 @@
 }
 
 .mart_banner_box img:hover {
-  opacity: 0.7;
   overflow: hidden;
 }
 
@@ -951,7 +951,7 @@
   margin: 0 34px 0 0;
 }
 .expense_subcontent p:nth-child(2) span:nth-child(1) {
-  margin: 0 24px 0 0;
+  margin: 0 30px 0 0;
 }
 
 /** ===================== footer */
@@ -1046,7 +1046,7 @@
 /** ================================================== */
 /** ================================================== */
 
-@media (max-width: 380px) {
+@media (max-width: 700px) {
   .mobile {
     display: block;
   }
